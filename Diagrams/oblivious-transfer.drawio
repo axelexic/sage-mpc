@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5" pages="4">
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5" pages="5">
   <diagram name="BasicOT" id="N9N7CULGT7EyKArL0yXC">
     <mxGraphModel dx="1293" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="291" pageHeight="413" math="1" shadow="0">
       <root>
@@ -342,6 +342,125 @@
         </mxCell>
         <mxCell id="etyT-UjanfQ1QplT1CXO-16" value="$$\text{output}:\; m_b = C_{b}\cdot W_b^{-r}$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="etyT-UjanfQ1QplT1CXO-18">
           <mxGeometry x="340" y="257" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="n-choose-1-OT" id="Bkvvbi4D6xODti_ML478">
+    <mxGraphModel dx="1293" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="291" pageHeight="413" math="1" shadow="0">
+      <root>
+        <mxCell id="QVRTJeD_XtR-kTb3fc3y-0" />
+        <mxCell id="QVRTJeD_XtR-kTb3fc3y-1" parent="QVRTJeD_XtR-kTb3fc3y-0" />
+        <mxCell id="QftFU6GPLgOidlgEFzyv-5" value="" style="group" vertex="1" connectable="0" parent="QVRTJeD_XtR-kTb3fc3y-1">
+          <mxGeometry x="-120" y="280" width="520" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="QftFU6GPLgOidlgEFzyv-1" value="&lt;u&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;1-out-of-n OT from 1-out-of-2 OT&lt;/font&gt;&lt;/b&gt;&lt;/u&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;fillColor=#fff2cc;strokeColor=#d6b656;container=0;verticalAlign=top;" vertex="1" parent="QftFU6GPLgOidlgEFzyv-5">
+          <mxGeometry width="520" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="QVRTJeD_XtR-kTb3fc3y-12" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;shadow=1;" parent="QftFU6GPLgOidlgEFzyv-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="173" y="262" as="sourcePoint" />
+            <mxPoint x="173" y="72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QVRTJeD_XtR-kTb3fc3y-13" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;$$\mathbb{A}$$&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;verticalAlign=top;fontSize=12;align=center;spacingTop=-30;container=0;" parent="QftFU6GPLgOidlgEFzyv-5" vertex="1">
+          <mxGeometry x="158" y="42" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVRTJeD_XtR-kTb3fc3y-14" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;shadow=1;" parent="QftFU6GPLgOidlgEFzyv-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="332" y="262" as="sourcePoint" />
+            <mxPoint x="332" y="72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QVRTJeD_XtR-kTb3fc3y-15" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;$$\mathbb{B}$$&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;verticalAlign=top;fontSize=12;align=center;spacingTop=-30;container=0;" parent="QftFU6GPLgOidlgEFzyv-5" vertex="1">
+          <mxGeometry x="319" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVRTJeD_XtR-kTb3fc3y-24" value="\begin{aligned} (s_0^0,s_0^1) &amp;amp; \xleftarrow{\$} \{0,1\}^\lambda \\ &amp;amp; \vdots \\&amp;nbsp;(s_{\ell -1 }^0,s_{\ell -1 }^1) &amp;amp; \xleftarrow{\$} \{0,1\}^\lambda&amp;nbsp;\end{aligned}" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;spacingTop=-15;align=right;container=0;" parent="QftFU6GPLgOidlgEFzyv-5" vertex="1">
+          <mxGeometry x="2" y="99" width="156" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="SCiUl6GUybwCd4TN3pAb-5" value="$$i := \{I_0, \cdots, I_{\ell - 1} \}_2 $$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="QftFU6GPLgOidlgEFzyv-5">
+          <mxGeometry x="341" y="83" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SCiUl6GUybwCd4TN3pAb-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;container=0;" vertex="1" parent="QftFU6GPLgOidlgEFzyv-5">
+          <mxGeometry x="341" y="121.5" width="21" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SCiUl6GUybwCd4TN3pAb-17" value="$$S_i := (s_0^{I_0}, \cdots, s_{\ell - 1}^{I_{\ell -1}}&amp;nbsp;)$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="QftFU6GPLgOidlgEFzyv-5">
+          <mxGeometry x="359" y="130.5" width="141" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SCiUl6GUybwCd4TN3pAb-18" value="\begin{aligned} C_0 &amp;amp;= x_0\oplus \widetilde{F}(0) \\&amp;nbsp; &amp;amp; \quad \vdots \\ C_{n-1} &amp;amp;= x_{n-1}\oplus \widetilde{F}(n-1)\end{aligned}" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;spacingTop=-15;align=right;container=0;" vertex="1" parent="QftFU6GPLgOidlgEFzyv-5">
+          <mxGeometry x="2" y="190" width="156" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="SCiUl6GUybwCd4TN3pAb-19" value="" style="endArrow=block;html=1;rounded=0;endFill=1;" edge="1" parent="QftFU6GPLgOidlgEFzyv-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="172" y="228.73000000000002" as="sourcePoint" />
+            <mxPoint x="333" y="228.73000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SCiUl6GUybwCd4TN3pAb-20" value="$$C_0, \cdots, C_{n-1}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="QftFU6GPLgOidlgEFzyv-5">
+          <mxGeometry x="172" y="202" width="161" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SCiUl6GUybwCd4TN3pAb-21" value="$$ x_i = C_i \oplus_{s \in S_i} F(s,i)$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="QftFU6GPLgOidlgEFzyv-5">
+          <mxGeometry x="330.5" y="214" width="169.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVRTJeD_XtR-kTb3fc3y-17" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 12px; color: rgb(0, 0, 0);&quot;&gt;&lt;u&gt;Input:&lt;/u&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;overflow=hidden;rounded=0;spacingTop=-13;spacing=1;align=right;container=0;" parent="QftFU6GPLgOidlgEFzyv-5" vertex="1">
+          <mxGeometry y="45" width="150.00000000000003" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="QVRTJeD_XtR-kTb3fc3y-18" value="$$x_0, \cdots, x_{n-1} \in \{0,1\}^m$$" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;container=0;" parent="QftFU6GPLgOidlgEFzyv-5" vertex="1">
+          <mxGeometry y="61" width="150.00000000000003" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVRTJeD_XtR-kTb3fc3y-20" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 12px; color: rgb(0, 0, 0);&quot;&gt;&lt;u&gt;Input:&lt;/u&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;overflow=hidden;rounded=0;spacingTop=-13;spacing=1;align=left;container=0;" parent="QftFU6GPLgOidlgEFzyv-5" vertex="1">
+          <mxGeometry x="349" y="45" width="163" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="QVRTJeD_XtR-kTb3fc3y-21" value="$$i \in \{0, \cdots, n-1\} \subseteq \mathbb{Z}$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=2;container=0;" parent="QftFU6GPLgOidlgEFzyv-5" vertex="1">
+          <mxGeometry x="349" y="61" width="151" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SCiUl6GUybwCd4TN3pAb-0" value="" style="endArrow=doubleBlock;startArrow=doubleBlock;html=1;rounded=0;endFill=1;startFill=1;" edge="1" parent="QftFU6GPLgOidlgEFzyv-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="172" y="122" as="sourcePoint" />
+            <mxPoint x="332" y="122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SCiUl6GUybwCd4TN3pAb-1" value="$$\textsf{OT}(s_0^0, s_0^1;\; I_0)$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="QftFU6GPLgOidlgEFzyv-5">
+          <mxGeometry x="172" y="93" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SCiUl6GUybwCd4TN3pAb-10" value="" style="endArrow=doubleBlock;startArrow=doubleBlock;html=1;rounded=0;endFill=1;startFill=1;" edge="1" parent="QftFU6GPLgOidlgEFzyv-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="172" y="173" as="sourcePoint" />
+            <mxPoint x="332" y="173" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SCiUl6GUybwCd4TN3pAb-11" value="$$\textsf{OT}(s_{\ell-1}^0, s_{\ell-1}^1;\; I_{\ell -1 })$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="QftFU6GPLgOidlgEFzyv-5">
+          <mxGeometry x="172" y="145" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SCiUl6GUybwCd4TN3pAb-14" value="$$\vdots$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="QftFU6GPLgOidlgEFzyv-5">
+          <mxGeometry x="222" y="121" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QftFU6GPLgOidlgEFzyv-6" value="" style="group" vertex="1" connectable="0" parent="QVRTJeD_XtR-kTb3fc3y-1">
+          <mxGeometry x="-10" y="10" width="300" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="QVRTJeD_XtR-kTb3fc3y-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;u&gt;Setup&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;absoluteArcSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;noLabel=0;container=0;" parent="QftFU6GPLgOidlgEFzyv-6" vertex="1">
+          <mxGeometry width="300" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="QVRTJeD_XtR-kTb3fc3y-30" value="&lt;div&gt;&lt;b&gt;&lt;u&gt;Definitions&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;$$\ell := \lceil \log n \rceil $$&lt;div&gt;$$\forall j \in \{0,\cdots, n-1\}:\; \vec{j} = \{ J_0, \cdots, J_{\ell - 1 }\}_2 $$&lt;/div&gt;&lt;div&gt;$$\widetilde{F}(j) := \oplus_{k=0}^{\ell -1}F(s_{k}^{J_k}, j) $$&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" parent="QftFU6GPLgOidlgEFzyv-6" vertex="1">
+          <mxGeometry y="100" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ATlzrNcOle1uLuYZzJIm-3" value="$$F: \{0,1\}^\lambda\times \{0,1\}^m \to&amp;nbsp;\{0,1\}^m$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" parent="QftFU6GPLgOidlgEFzyv-6" vertex="1">
+          <mxGeometry x="50" y="62" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SCiUl6GUybwCd4TN3pAb-24" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="QftFU6GPLgOidlgEFzyv-6" source="QVRTJeD_XtR-kTb3fc3y-30" target="QVRTJeD_XtR-kTb3fc3y-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="160" as="sourcePoint" />
+            <mxPoint x="110" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ATlzrNcOle1uLuYZzJIm-0" value="$${2 \choose 1}\; \textsf{OT}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" parent="QftFU6GPLgOidlgEFzyv-6" vertex="1">
+          <mxGeometry x="110" y="33" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ATlzrNcOle1uLuYZzJIm-1" value="Access to&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" parent="QftFU6GPLgOidlgEFzyv-6" vertex="1">
+          <mxGeometry x="50" y="33" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ATlzrNcOle1uLuYZzJIm-2" value="and PRF" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" parent="QftFU6GPLgOidlgEFzyv-6" vertex="1">
+          <mxGeometry x="170" y="33" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
